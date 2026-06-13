@@ -1,0 +1,14 @@
+.gitignore
+  h_eabc34dcaf7833 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.6",
+  "base_commit_sha": "a2c213d0953309f8cb32d6dcec7b5401fbdf3366",
+  "prompts": {},
+  "humans": {
+    "h_eabc34dcaf7833": {
+      "author": "muhai <muhai.li@tuya.com>"
+    }
+  }
+}
