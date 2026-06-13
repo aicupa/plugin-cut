@@ -1,0 +1,30 @@
+{
+  "name": "@aicupa/plugin-cut",
+  "version": "1.0.0",
+  "description": "Cut and paste tree nodes",
+  "main": "./service",
+  "view": "./view",
+  "pluginContributes": {
+    "contextMenus": [
+      {
+        "title": "Cut",
+        "title_zh": "剪切",
+        "command": "cutNode"
+      }
+    ],
+    "events": {
+      "paste": {
+        "check": "getCutBuffer",
+        "handler": "pasteNode"
+      }
+    }
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@aicupa/api": "^1.0.1"
+  }
+}
