@@ -1,6 +1,8 @@
-const { createPlugin } = require("@aicupa/api");
-
-module.exports = createPlugin((api) => {
+/**
+ * @param {import('@aicupa/api').PluginApi} api
+ * @returns {import('@aicupa/api').Plugin}
+ */
+module.exports = (api) => {
   let cutBuffer = null;
 
   return {
@@ -55,7 +57,7 @@ module.exports = createPlugin((api) => {
       return { ok: true };
     },
   };
-});
+};
 
 function findNode(tree, key) {
   if (!Array.isArray(tree)) return null;
