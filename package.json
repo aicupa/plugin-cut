@@ -1,6 +1,6 @@
 {
   "name": "@aicupa/plugin-cut",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Cut and paste tree nodes",
   "main": "./service",
   "view": "./view",
