@@ -3,7 +3,7 @@
   "version": "1.0.4",
   "description": "Cut and paste tree nodes",
   "main": "./service",
-  "view": "",
+  "view": "./view",
   "pluginContributes": {
     "contextMenus": [
       {
